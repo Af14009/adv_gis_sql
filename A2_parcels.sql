@@ -1,3 +1,5 @@
+-- Andrew Fox's Query
+-- It finds sales over 300000 and less than 1 acre
 CREATE OR REPLACE VIEW student.v_parcels_final AS
 SELECT
 	defaultdb.enterprise.parcels_core.pin,
